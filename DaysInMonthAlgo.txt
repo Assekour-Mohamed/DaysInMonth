@@ -1,0 +1,14 @@
+algorithme DaysInMonth  
+variables 
+  m:entier
+debut 
+  ecrire("enter the month")
+  lire(m)
+  cas m vaut:
+    1: ecrire("31)
+    2:ecrire("28 or 29")
+    3:ecrire("31")
+    4:ecrire("30")
+    ....
+fin
+    
